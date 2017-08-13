@@ -1,0 +1,27 @@
+so let's talk about clustering! 
+1.our objective is to implement a basic clustering algorithm! 
+2.write it well, this is not graded, but just might be the base for your graded assingment soon to be given.
+3.let's break it to pieces:
+4.we should have data object, you can call it point, dataObject or josef, everything works! 
+it should have the following methods, you might need more, thats for you to decide. 
+
+@classmethod 
+def distance(dO,dO):
+    pass 
+
+def setCoordinates(listOfcoordinates):
+    pass
+
+def getCoordinates():
+    pass
+    
+    
+5.to be able to cluster stuff, we need to assume that we have a distance function, how will you implement it? we are working in a general space, where n dims are possible, i do promise that all the data objects will have the same dimensions, but i do not promise how many. you should be able to easily iterate over n dimensions.
+
+6.you can choose weather method to use to calculate distance between clusters, min, max or average distance, the point here that here are no correct answers, as datascientists, you should try things and run with the data. there are no absolute answers.
+
+7.after you have all the above, you need to impelement the h.clust algorithm, make a run(dataMatrix, numberOfClusters) function, that will return a list of the clusters that you made, each cluster should have a method names getData() that will return a list of it's data objects for me to see. 
+
+As usual, feel free to send me questions.
+
+Shai
