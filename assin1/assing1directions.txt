@@ -1,0 +1,7 @@
+1.this assignment is a direct extension for ex3.
+2.you should have built a clustering mechanism that can take a list of lists of numbers, and cluster them to a given number of clusters, with the function run(matrix,numberOfClusters) 
+3.now, you need to include a script that i wrote - "generate.py" that will have a simple api - 
+a function named gen(dim, numberOfPints) this function will return a list of lists, you should be able to write one script that will load that function, generate data from it, and print the clusters in the end, feel free to run it with little dimensions and data object for you script to run faster. 
+4.I should be able to use include <yourscript.py> and run it's function run(matrixofdata, numberofclusters) and get a list of clusters, after that, i will run cluster.get_data() for every cluster, and will expect to get a list of points from it, i will run point.get_data() on every point and will expect to get a list of numbers from that point. so add the proper functions in your code. note: if you allready did that same thing under different function names, it's ok. just tell me specifically when you serve the assignment (in the email).
+5.you should serve all the needed files in a zip file via email to python2016c@gmail.com
+6.note, imports do not work well in a jupyter server so run the imports under pycharm.

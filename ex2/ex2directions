@@ -1,0 +1,7 @@
+tasks: 
+lesson2:
+1.try and read the example csv file to a list of lists, one list for every row.
+2.try to run some basic statistics: max, min average, median for every row 
+3.create a script that generates random data with 2 dims and plots it to the screen
+4.take your gambling machines from last class, calculate some statistics to them, how much money won\lost, how many people play with them\day, plot that data to the screen for each machine.
+5.add a function that will read a csv file (you need to search for how to do that) assume that the csv file has 2 numbers\row and treat each row as x,y coordianates, plot them to the screen.
